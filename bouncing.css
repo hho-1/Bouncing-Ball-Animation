@@ -21,7 +21,7 @@ body{
     position: relative;
     top: 50px;
     left: 270px;
-    animation: jump 0.9s ease-in infinite;
+    animation: jump 0.9s infinite;
 }
 
 @keyframes jump {
@@ -59,7 +59,7 @@ body{
     top: 635px;
     left: 263px;
     /* z-index: -1; */
-    animation: shrink 0.9s ease-in infinite;
+    animation: shrink 0.9s infinite;
 }
 @keyframes shrink {
     50%{
